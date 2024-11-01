@@ -252,7 +252,7 @@ public class JFrmPrincipal extends JFrame {
 			public void actionPerformed(ActionEvent arg0) {
 				 try {
 	                    Desktop desktop = Desktop.getDesktop();
-	                    URI uri = new URI("https://prnt.sc/BzDw2EG8RZNY");
+	                    URI uri = new URI("https://prnt.sc/CLBnX8fFM71v");
 	                    desktop.browse(uri);
 	                } catch (Exception ex) {
 	                    ex.printStackTrace();
