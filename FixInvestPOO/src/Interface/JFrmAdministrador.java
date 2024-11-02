@@ -169,7 +169,7 @@ public class JFrmAdministrador extends JFrame {
 		JButton jBtnSair = new JButton("Sair");
 		jBtnSair.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				if (Diversos.confirmar("Deseja finalisar", titulo))
+				if (Diversos.confirmar("Deseja finalizar", titulo))
 					dispose();
 			}
 		});
